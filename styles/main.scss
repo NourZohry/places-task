@@ -1,0 +1,133 @@
+$card-color: #f3f3f3;
+$title-color: #449dad;
+$text-color: #7c7c7c;
+$info-color: #9a9a9a;
+$signup-color: #edebec;
+
+$footer-color: #17a6b6;
+
+header {
+	h1 {
+		color: $title-color;
+		font-weight: lighter;
+	}
+	h2 {
+		color: $text-color;
+		font-size: 14px;
+	}
+}
+
+.modal-content {
+	min-height: 50vh;
+	.card-title {
+		color: $title-color;
+		font-size: 24px;
+		text-transform: uppercase;
+	}
+	.card-text {
+		color: black;
+		font-size: 12px;
+	}
+}
+
+.card-body {
+	background-color: $card-color;
+	.card-title {
+		color: $title-color;
+		font-size: 16px;
+		text-transform: uppercase;
+	}
+	.card-text {
+		color: $text-color;
+		font-size: 12px;
+	}
+	.card-info {
+		color: $info-color;
+		* {
+			margin: 0px;
+			font-size: 12px;
+		}
+		.card-date,
+		.card-comments {
+			text-transform: capitalize;
+		}
+	}
+}
+
+footer {
+	background-color: $footer-color;
+	color: white;
+
+	.contact-us-wrapper {
+		h4 {
+			font-size: 16px;
+			text-transform: uppercase;
+		}
+		h5 {
+			font-size: 14px;
+			font-weight: 400;
+			margin: 0px;
+		}
+
+		.contact-us-icon {
+			font-size: 20px;
+		}
+
+		.contact-us-button {
+			background-color: white;
+			color: $footer-color;
+			padding: 10px 20px;
+		}
+	}
+
+	.connect-with-us-wrapper {
+		.connect-with-us-icons {
+			border-bottom: 1px solid white;
+			.connect-with-us-icon {
+				font-size: 24px;
+				padding: 16px 22px;
+				background-color: white;
+				color: $footer-color;
+				border-radius: 50%;
+			}
+		}
+		.sign-up-text {
+			font-size: 14px;
+			font-weight: normal;
+		}
+		.email-wrapper {
+			* {
+				border: 0px;
+				border-radius: 0px;
+			}
+			#basic-addon1 {
+				background-color: white;
+			}
+			#email-input {
+				box-shadow: none;
+			}
+			#button-addon2 {
+				background-color: $signup-color;
+				color: $footer-color;
+			}
+		}
+	}
+	.about-us-wrapper {
+		.about-us-text {
+			background-image: url("../assets/images/bg_about.png");
+			background-repeat: no-repeat;
+			background-position: right top;
+			p {
+				max-width: 50%;
+				font-size: 13px;
+				margin-bottom: 4px;
+			}
+			ul {
+				padding-left: 20px;
+			}
+			i {
+				font-stretch: ultra-expanded;
+			}
+		}
+	}
+}

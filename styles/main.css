@@ -1,0 +1,111 @@
+header h1 {
+  color: #449dad;
+  font-weight: lighter;
+}
+header h2 {
+  color: #7c7c7c;
+  font-size: 14px;
+}
+
+.modal-content {
+  min-height: 50vh;
+}
+.modal-content .card-title {
+  color: #449dad;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.modal-content .card-text {
+  color: black;
+  font-size: 12px;
+}
+
+.card-body {
+  background-color: #f3f3f3;
+}
+.card-body .card-title {
+  color: #449dad;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.card-body .card-text {
+  color: #7c7c7c;
+  font-size: 12px;
+}
+.card-body .card-info {
+  color: #9a9a9a;
+}
+.card-body .card-info * {
+  margin: 0px;
+  font-size: 12px;
+}
+.card-body .card-info .card-date,
+.card-body .card-info .card-comments {
+  text-transform: capitalize;
+}
+
+footer {
+  background-color: #17a6b6;
+  color: white;
+}
+footer .contact-us-wrapper h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+footer .contact-us-wrapper h5 {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0px;
+}
+footer .contact-us-wrapper .contact-us-icon {
+  font-size: 20px;
+}
+footer .contact-us-wrapper .contact-us-button {
+  background-color: white;
+  color: #17a6b6;
+  padding: 10px 20px;
+}
+footer .connect-with-us-wrapper .connect-with-us-icons {
+  border-bottom: 1px solid white;
+}
+footer .connect-with-us-wrapper .connect-with-us-icons .connect-with-us-icon {
+  font-size: 24px;
+  padding: 16px 22px;
+  background-color: white;
+  color: #17a6b6;
+  border-radius: 50%;
+}
+footer .connect-with-us-wrapper .sign-up-text {
+  font-size: 14px;
+  font-weight: normal;
+}
+footer .connect-with-us-wrapper .email-wrapper * {
+  border: 0px;
+  border-radius: 0px;
+}
+footer .connect-with-us-wrapper .email-wrapper #basic-addon1 {
+  background-color: white;
+}
+footer .connect-with-us-wrapper .email-wrapper #email-input {
+  box-shadow: none;
+}
+footer .connect-with-us-wrapper .email-wrapper #button-addon2 {
+  background-color: #edebec;
+  color: #17a6b6;
+}
+footer .about-us-wrapper .about-us-text {
+  background-image: url("../assets/images/bg_about.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+footer .about-us-wrapper .about-us-text p {
+  max-width: 50%;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+footer .about-us-wrapper .about-us-text ul {
+  padding-left: 20px;
+}
+footer .about-us-wrapper .about-us-text i {
+  font-stretch: ultra-expanded;
+}/*# sourceMappingURL=main.css.map */
